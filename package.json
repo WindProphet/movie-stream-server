@@ -1,0 +1,33 @@
+{
+  "name": "node-movie-server",
+  "version": "1.0.0",
+  "description": "A Movie server to run on a NAS and watch in iPad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WindProphet/movie-stream-server.git"
+  },
+  "keywords": [
+    "stream",
+    "movie"
+  ],
+  "author": "WindProphet",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/WindProphet/movie-stream-server/issues"
+  },
+  "homepage": "https://github.com/WindProphet/movie-stream-server#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "gulp-sourcemaps": "^2.6.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "serve-index": "^1.8.0"
+  }
+}
